@@ -1,0 +1,40 @@
+# Unity generated folders
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+
+# Unity captures / recordings
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+
+# Local builds
+**/[Bb]uild/
+**/[Bb]uilds/
+
+# IDE generated folders/files
+**/.vs/
+**/.idea/
+**/.gradle/
+
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+
+# Debug / crash files
+sysinfo.txt
+*.stackdump
+
+# Operating system junk
+.DS_Store
+Thumbs.db
+desktop.ini
