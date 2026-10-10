@@ -4,20 +4,18 @@ A small first-person café simulation I made for university using Unity.
 
 The idea is quite simple: you work a shift at a café, talk to customers, seat them, take their orders, wait for the food to be prepared, serve them and take payment. Each customer has their own dialogue, order and animations, while the game keeps track of things like available stock, customers served and the day's income.
 
-A big part of the project was also working with character animation. Character models and animations were sourced from Mixamo, taken through MotionBuilder for setup and animation processing, and then brought into Unity where they were connected to Animator state machines and the rest of the interaction system.
-
 ## Gameplay
 
-Customers arrive one at a time and can be spoken to using the first-person interaction system. After finding out what they want, they can be assigned a seat using the in-game iPad.
+Customers arrive one at a time and can be spoken to and interacted with, using the first-person interaction system. After finding out what they want, they can be assigned a seat using the in-game iPad.
 
-From there, the player can:
+So, the player can essentially:
 
 * Seat customers at available tables
 * Place orders through the iPad
 * View order prices and preparation times
 * Keep track of active orders
 * Pick up prepared food and drinks
-* Serve the correct customer
+* Serve the customer
 * Take payment after they finish
 * Track stock, customers served and daily income
 
@@ -35,11 +33,11 @@ The project uses an on-screen first-person controller for camera control.
 
 ## Character Animation
 
-The animation workflow was one of the main parts of the project.
+Character animation workflow was one of the bigger parts of the project. 
 
-Characters and animations were sourced from Mixamo and processed through MotionBuilder before being imported into Unity. This included character setup, working with control rigs and animation clips, and preparing the animations for use with Unity's Animator system.
+The character models and animations were sourced from Mixamo, then taken through MotionBuilder for setup, control rig work, animation processing, and then for preparing the animation clips for use in Unity.
 
-Inside Unity, Animator Controllers and state-based logic are used to switch between the different animations depending on what each customer is currently doing.
+Once imported to Unity, the animations were connected to Animator Controllers and state-based logic, allowing each customer to switch between different actions depending on what they were doing in the game.
 
 ## Implementation
 
@@ -47,7 +45,7 @@ Most of the gameplay systems were put together using Unity Visual Scripting, inc
 
 The project also uses prefabs for characters and interactive objects, an in-game iPad UI for managing the café, and first-person raycast interaction for dealing with customers and orders.
 
-Outside the main gameplay loop, I also spent some time building out the setting with a beach environment, water, sunset lighting, ambient audio, music and a few smaller details like a video playing on the café TV because why not.
+Outside the main gameplay loop, I also spent some time building out the setting with a beach environment, water, sunset lighting, ambient audio, music and a few smaller details like a video playing on the café TV.
 
 ## Playable Build
 
@@ -64,9 +62,11 @@ To run it:
 
 **Note:** Google Drive may show a warning that it can't scan the ZIP for viruses because of the file size. Nothing sketchy in there, Drive just has a pretty low scan limit, so it is safe to download. Download size: **~180 MB**
 
-## Video Showcase
+## Project Showcase
 
-Coming soon.
+A short showcase of the project, covering the main gameplay loop, a few cinematic shots, and a very brief look at the MotionBuilder animation work and Unity Visual Scripting.
+
+**[Watch the Project Showcase](https://youtu.be/N0ri1gpJVpE)**
 
 
 ## Project Notes
