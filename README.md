@@ -51,7 +51,7 @@ Outside the main gameplay loop, I also spent some time building out the setting 
 
 A Windows build of the project is available here:
 
-**[Download Windows Build](https://drive.google.com/file/d/1mMNB70w9DuZikhBcz-5XozGKznkJajDv/view?usp=sharing)**
+**[Download Shift at Cafe Mmm for Windows](https://drive.google.com/file/d/1mMNB70w9DuZikhBcz-5XozGKznkJajDv/view?usp=sharing)**
 
 To run it:
 
