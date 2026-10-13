@@ -47,6 +47,12 @@ The project also uses prefabs for characters and interactive objects, an in-game
 
 Outside the main gameplay loop, I also spent some time building out the setting with a beach environment, water, sunset lighting, ambient audio, music and a few smaller details like a video playing on the café TV.
 
+## Additional Files
+
+If you want a quick peek at the game without watching the full showcase, there are some screenshots in the [`Screenshots`](./Screenshots) folder.
+
+I also included MotionBuilder character and animation files in the [`MotionBuilder`](./MotionBuilder) folder for anyone interested in that side of the project.
+
 ## Playable Build
 
 A Windows build of the project is available here:
